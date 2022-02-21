@@ -5,8 +5,8 @@
   "main": "main.js",
   "homepage": "https://devshof.github.io/simple_game_on_javascript",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html --public-url ./",
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url ./",
     "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
   },
   "keywords": [],

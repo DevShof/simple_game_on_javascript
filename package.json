@@ -1,0 +1,19 @@
+{
+  "name": "lesson_20_exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "homepage": "https://devshof.github.io/simple_game_on_javascript",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "rm -rf dist/ && npm run build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5"
+  }
+}
